@@ -1,0 +1,10 @@
+services:
+  server:
+    image: nginx:alpine
+    volumes:
+      - ./site:/usr/share/nginx/html:ro
+    ports:
+      - "8080:80"
+  client:
+    image: alpine:latest
+    command: sleep infinity

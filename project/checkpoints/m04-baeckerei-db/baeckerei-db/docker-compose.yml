@@ -1,0 +1,14 @@
+services:
+  mysql:
+    image: mysql:8.4
+    environment:
+      MYSQL_ROOT_PASSWORD: testpasswort
+      MYSQL_DATABASE: baeckerei
+    volumes:
+      - ./schema.sql:/docker-entrypoint-initdb.d/schema.sql:ro
+    ports:
+      - "3306:3306"
+  adminer:
+    image: adminer:latest
+    ports:
+      - "8081:8080"

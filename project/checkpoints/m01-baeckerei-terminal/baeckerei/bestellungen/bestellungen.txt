@@ -1,0 +1,1 @@
+Bestellungen (Platzhalter): Datum, Kunde, Produkt, Menge.

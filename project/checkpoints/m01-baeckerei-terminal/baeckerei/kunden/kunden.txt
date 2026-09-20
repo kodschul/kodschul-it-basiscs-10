@@ -1,0 +1,1 @@
+Kundenliste (Platzhalter): Name, Adresse, Bestellhistorie.
