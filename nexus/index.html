@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nexus – IT Playground</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body class="kd-app min-h-screen flex flex-col">
+
+    <header class="kd-topbar">
+        <button id="go-home" class="kd-topbar-brand">
+            <img src="img/kodschul-logo.png" alt="kodschul logo" class="kd-topbar-logo" />
+            <div class="kd-topbar-name">
+                <span class="kd-topbar-title">Nexus</span>
+                <span class="kd-topbar-sub">IT-Basics Playground</span>
+            </div>
+        </button>
+
+        <div id="module-title" class="kd-topbar-module"></div>
+
+        <div class="kd-topbar-progress">
+            <div class="kd-progress-track">
+                <div id="progress-fill" class="kd-progress-fill"></div>
+            </div>
+            <span id="module-progress" class="kd-progress-label"></span>
+            <button id="reset-all" class="kd-reset-btn" title="Gesamten Fortschritt zurücksetzen">↺</button>
+        </div>
+    </header>
+
+    <main class="flex-1">
+        <section id="module-content" class="flex-1 p-6"></section>
+    </main>
+
+    <script src="js/progress.js"></script>
+    <script src="js/station-wizard.js?v=2"></script>
+    <script src="js/quiz-data.enc.js"></script>
+    <script src="js/quiz-bank.js"></script>
+    <script src="js/topic-quiz.js"></script>
+    <script src="js/modules/computer.js?v=3"></script>
+    <script src="js/modules/coding.js?v=2"></script>
+    <script src="js/modules/io-devices.js?v=2"></script>
+    <script src="js/modules/os.js?v=2"></script>
+    <script src="js/modules/filesystem.js?v=2"></script>
+    <script src="js/modules/terminal.js?v=5"></script>
+    <script src="js/modules/networking.js?v=2"></script>
+    <script src="js/modules/cloud.js?v=3"></script>
+    <script src="js/modules/database.js"></script>
+    <script src="js/modules/virtualization.js"></script>
+    <script src="js/modules/quiz.js?v=3"></script>
+    <script src="js/app.js?v=8"></script>
+</body>
+
+</html>

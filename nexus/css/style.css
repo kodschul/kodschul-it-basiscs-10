@@ -1,0 +1,617 @@
+/* Small extras Tailwind CDN can't express as utility classes alone */
+
+:root {
+  --kd-primary: #5900ea;
+  --kd-primary-strong: #795dd1;
+  --kd-primary-soft: #c6acf6;
+  --kd-ink: #1a1a2e;
+  --kd-text-muted: #5c5c70;
+  --kd-line: #e4e4ef;
+  --kd-surface: #f0fafe;
+  --kd-bg-soft: #fafafc;
+  --kd-success: #16a34a;
+  --kd-success-soft: #dcfce7;
+  --kd-warning: #d97706;
+  --kd-warning-soft: #fef3c7;
+  --kd-danger: #dc2626;
+  --kd-danger-soft: #fee2e2;
+}
+
+body {
+  font-family: "Inter", system-ui, Arial, sans-serif;
+  background: #ffffff;
+}
+
+.level-card {
+  transition: transform 0.15s ease, border-color 0.15s ease;
+}
+.level-card:hover {
+  transform: translateY(-2px);
+}
+
+.draggable {
+  cursor: grab;
+}
+.draggable:active {
+  cursor: grabbing;
+}
+
+.drop-zone.drag-over {
+  outline: 2px dashed var(--kd-primary);
+  outline-offset: 4px;
+}
+
+#terminal-output {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  white-space: pre-wrap;
+}
+
+.checkpoint-passed {
+  animation: pop 0.3s ease;
+}
+@keyframes pop {
+  0% {
+    transform: scale(0.9);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.case-slot.filled {
+  border-color: var(--kd-success);
+  background: var(--kd-success-soft);
+}
+.case-slot.reject {
+  animation: shake 0.3s ease;
+  border-color: var(--kd-danger);
+}
+@keyframes shake {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-4px);
+  }
+  75% {
+    transform: translateX(4px);
+  }
+}
+
+.part-icon svg,
+.case-slot svg {
+  display: block;
+  margin: 0 auto;
+}
+
+/* ---------------------------------------------------------------------- */
+/* Kodschul rebrand: remap the dark Tailwind utility palette used across   */
+/* the module JS templates (slate/emerald/sky/red/amber) to the kodschul   */
+/* light brand palette, without rewriting every template string.          */
+/* ---------------------------------------------------------------------- */
+
+.bg-slate-950,
+.bg-slate-900,
+.bg-slate-900\/50 {
+  background-color: #ffffff !important;
+}
+
+.bg-slate-800,
+.bg-slate-700,
+.bg-slate-600 {
+  background-color: var(--kd-surface) !important;
+}
+
+.border-slate-800,
+.border-slate-700,
+.border-slate-600 {
+  border-color: var(--kd-line) !important;
+}
+
+.text-slate-100,
+.text-slate-300 {
+  color: var(--kd-ink) !important;
+}
+
+.text-slate-400,
+.text-slate-500,
+.text-slate-600 {
+  color: var(--kd-text-muted) !important;
+}
+
+.text-emerald-400,
+.text-emerald-600,
+.text-emerald-700 {
+  color: var(--kd-success) !important;
+}
+.bg-emerald-500,
+.bg-emerald-600,
+.bg-emerald-700 {
+  background-color: var(--kd-success) !important;
+  color: #ffffff !important;
+}
+.bg-emerald-900\/40,
+.bg-emerald-900\/30,
+.bg-emerald-950\/20 {
+  background-color: var(--kd-success-soft) !important;
+}
+.border-emerald-800,
+.border-emerald-600,
+.border-emerald-500 {
+  border-color: var(--kd-success) !important;
+}
+.hover\:bg-emerald-600:hover {
+  background-color: #128a3e !important;
+}
+
+.text-sky-400,
+.text-sky-300 {
+  color: var(--kd-primary) !important;
+}
+.bg-sky-500,
+.bg-sky-600 {
+  background-color: var(--kd-primary) !important;
+  color: #ffffff !important;
+}
+.bg-sky-900\/40,
+.bg-sky-950\/40,
+.bg-sky-900\/30 {
+  background-color: var(--kd-primary-soft) !important;
+}
+.border-sky-500,
+.border-sky-400,
+.border-sky-700 {
+  border-color: var(--kd-primary) !important;
+}
+.hover\:bg-sky-500:hover {
+  background-color: var(--kd-primary-strong) !important;
+}
+.hover\:border-sky-500:hover {
+  border-color: var(--kd-primary) !important;
+}
+.hover\:text-sky-300:hover {
+  color: var(--kd-primary-strong) !important;
+}
+
+.text-red-400,
+.text-red-300 {
+  color: var(--kd-danger) !important;
+}
+.bg-red-500,
+.bg-red-600,
+.bg-red-700 {
+  background-color: var(--kd-danger) !important;
+  color: #ffffff !important;
+}
+.bg-red-900\/40,
+.bg-red-900\/30,
+.bg-red-950 {
+  background-color: var(--kd-danger-soft) !important;
+}
+.border-red-700,
+.border-red-600,
+.border-red-500 {
+  border-color: var(--kd-danger) !important;
+}
+.hover\:bg-red-600:hover,
+.hover\:bg-red-950:hover {
+  background-color: #b91c1c !important;
+}
+.hover\:text-red-300:hover {
+  color: #b91c1c !important;
+}
+
+.text-amber-400 {
+  color: var(--kd-warning) !important;
+}
+.bg-amber-500 {
+  background-color: var(--kd-warning) !important;
+  color: #ffffff !important;
+}
+
+.hover\:bg-slate-800:hover,
+.hover\:bg-slate-600:hover {
+  background-color: var(--kd-surface) !important;
+}
+
+/* Terminal stays a real dark console for authenticity — its own text colors must NOT be
+   caught by the .text-slate-* brand overrides above, or typed input becomes invisible.
+   -webkit-text-fill-color + color-scheme guard against Safari/Chrome forcing dark-mode
+   or autofill text colors that would otherwise hide characters while typing. */
+#terminal-output,
+#cloud-output {
+  color: #4ade80;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+}
+#terminal-input,
+#terminal-prompt,
+#cloud-input {
+  color: #4ade80 !important;
+  -webkit-text-fill-color: #4ade80 !important;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  color-scheme: light;
+  caret-color: #4ade80;
+}
+#terminal-input::placeholder {
+  color: #2f6b46 !important;
+  -webkit-text-fill-color: #2f6b46 !important;
+}
+
+/* Brand logo footer */
+.kd-brand-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 8px;
+  border-top: 1px solid var(--kd-line);
+}
+.kd-brand-footer img {
+  height: 22px;
+  width: auto;
+  object-fit: contain;
+}
+
+/* ---------------------------------------------------------------------- */
+/* Nexus shell: top bar + home grid (no sidebar, module-first navigation) */
+/* ---------------------------------------------------------------------- */
+
+.kd-app {
+  background: linear-gradient(180deg, var(--kd-surface) 0%, #ffffff 220px);
+  color: var(--kd-ink);
+}
+
+.kd-topbar {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 10px 24px;
+  background: #ffffff;
+  border-bottom: 1px solid var(--kd-line);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.kd-topbar-brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-align: left;
+  padding: 4px 8px;
+  border-radius: 10px;
+  flex-shrink: 0;
+}
+.kd-topbar-brand:hover {
+  background: var(--kd-surface);
+}
+.kd-topbar-logo {
+  height: 28px;
+  width: auto;
+  object-fit: contain;
+}
+.kd-topbar-name {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.1;
+}
+.kd-topbar-title {
+  font-weight: 800;
+  font-size: 1.5rem;
+  color: var(--kd-primary);
+  letter-spacing: -0.02em;
+}
+.kd-topbar-sub {
+  font-size: 0.78rem;
+  color: var(--kd-text-muted);
+}
+
+.kd-topbar-module {
+  font-weight: 700;
+  font-size: 1.15rem;
+  color: var(--kd-ink);
+  flex: 1;
+  min-width: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.kd-topbar-progress {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.kd-progress-track {
+  width: 120px;
+  height: 6px;
+  border-radius: 999px;
+  background: var(--kd-line);
+  overflow: hidden;
+}
+.kd-progress-fill {
+  height: 100%;
+  background: var(--kd-primary);
+  border-radius: 999px;
+  transition: width 0.25s ease;
+}
+.kd-progress-label {
+  font-size: 0.75rem;
+  color: var(--kd-text-muted);
+  white-space: nowrap;
+}
+.kd-reset-btn {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--kd-text-muted);
+  border: 1px solid var(--kd-line);
+  border-radius: 10px;
+  width: 42px;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.kd-reset-btn:hover {
+  color: var(--kd-danger);
+  border-color: var(--kd-danger);
+  background: var(--kd-danger-soft);
+}
+
+/* Home / module picker */
+.kd-home {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 48px 24px 64px;
+}
+.kd-home-heading {
+  font-size: 1.9rem;
+  font-weight: 700;
+  color: var(--kd-ink);
+  letter-spacing: -0.01em;
+  margin-bottom: 24px;
+}
+
+.kd-module-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 18px;
+}
+
+.kd-module-card {
+  position: relative;
+  text-align: left;
+  padding: 22px 20px;
+  border-radius: 16px;
+  background: #ffffff;
+  border: 1px solid var(--kd-line);
+  box-shadow: 0 1px 2px rgba(26, 26, 46, 0.04);
+  transition: transform 0.15s ease, box-shadow 0.15s ease,
+    border-color 0.15s ease;
+}
+.kd-module-card:hover {
+  transform: translateY(-3px);
+  border-color: var(--kd-primary-soft);
+  box-shadow: 0 12px 24px -12px rgba(89, 0, 234, 0.25);
+}
+
+.kd-module-number {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 9px;
+  background: var(--kd-surface);
+  color: var(--kd-primary);
+  font-weight: 700;
+  font-size: 0.85rem;
+  margin-bottom: 14px;
+}
+.kd-module-card.is-done .kd-module-number {
+  background: var(--kd-success-soft);
+  color: var(--kd-success);
+}
+
+.kd-module-name {
+  font-weight: 600;
+  font-size: 1.05rem;
+  color: var(--kd-ink);
+  margin-bottom: 6px;
+}
+
+.kd-module-status {
+  font-size: 0.78rem;
+  color: var(--kd-text-muted);
+}
+.kd-module-status.is-done {
+  color: var(--kd-success);
+  font-weight: 600;
+}
+
+.kd-module-check {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  color: var(--kd-success);
+  font-size: 0.9rem;
+}
+
+/* Back-to-overview link shown above each module's own content */
+.kd-back-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.85rem;
+  color: var(--kd-text-muted);
+  padding: 4px 0;
+  margin-bottom: 12px;
+}
+.kd-back-link:hover {
+  color: var(--kd-primary);
+}
+.kd-back-link-inline {
+  font-size: 0.85rem;
+  color: var(--kd-primary);
+  font-weight: 600;
+}
+.kd-back-link-inline:hover {
+  color: var(--kd-primary-strong);
+}
+
+/* ---------------------------------------------------------------------- */
+/* Station-wizard shell: mission banner, step pills, stage, footer nav.    */
+/* Shared by every module for a consistent, compact, low-noise look.      */
+/* ---------------------------------------------------------------------- */
+
+.kd-mission {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 14px 18px;
+  border-radius: 14px;
+  background: var(--kd-surface);
+  border-left: 3px solid var(--kd-primary);
+}
+.kd-mission-label {
+  flex-shrink: 0;
+  font-size: 0.68rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--kd-primary);
+}
+.kd-mission-text {
+  font-size: 0.92rem;
+  color: var(--kd-ink);
+  line-height: 1.4;
+}
+
+.kd-pill-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.kd-pill {
+  padding: 6px 12px;
+  border-radius: 999px;
+  font-size: 0.78rem;
+  font-weight: 500;
+  color: var(--kd-text-muted);
+  background: #ffffff;
+  border: 1px solid var(--kd-line);
+}
+.kd-pill.is-active {
+  color: #ffffff;
+  background: var(--kd-primary);
+  border-color: var(--kd-primary);
+}
+.kd-pill.is-done:not(.is-active) {
+  color: var(--kd-success);
+  border-color: var(--kd-success-soft);
+  background: var(--kd-success-soft);
+}
+
+.kd-stage {
+  min-height: 20rem;
+  padding: 4px 0;
+}
+
+.kd-wizard-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 14px;
+  border-top: 1px solid var(--kd-line);
+}
+.kd-wizard-step {
+  font-size: 0.75rem;
+  color: var(--kd-text-muted);
+}
+
+.kd-btn {
+  padding: 7px 16px;
+  border-radius: 10px;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+.kd-btn-ghost {
+  color: var(--kd-text-muted);
+  border: 1px solid var(--kd-line);
+  background: #ffffff;
+}
+.kd-btn-ghost:hover:not(:disabled) {
+  border-color: var(--kd-primary-soft);
+  color: var(--kd-primary);
+}
+.kd-btn-ghost:disabled {
+  opacity: 0.35;
+}
+.kd-btn-primary {
+  color: #ffffff;
+  background: var(--kd-primary);
+}
+.kd-btn-primary:hover {
+  background: var(--kd-primary-strong);
+}
+
+/* Compact instructional hint line — shorter, quieter than a paragraph */
+.kd-hint {
+  font-size: 0.85rem;
+  color: var(--kd-text-muted);
+  line-height: 1.4;
+  margin-bottom: 10px;
+}
+.kd-hint code {
+  color: var(--kd-ink);
+}
+
+/* Row of command chips instead of a comma-separated sentence */
+.kd-cmd-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 14px;
+}
+.kd-cmd-row code {
+  padding: 3px 8px;
+  border-radius: 6px;
+  background: var(--kd-surface);
+  border: 1px solid var(--kd-line);
+  font-size: 0.78rem;
+}
+
+/* Generic instructional paragraph pattern used across module templates —
+   quieter and tighter than a default Tailwind paragraph. */
+p.text-slate-400.text-sm.mb-4 {
+  font-size: 0.85rem !important;
+  line-height: 1.45;
+  margin-bottom: 14px !important;
+}
+
+/* Quiz topic tiles */
+.kd-tile {
+  text-align: left;
+  padding: 16px;
+  border-radius: 12px;
+  background: #ffffff;
+  border: 1px solid var(--kd-line);
+}
+.kd-tile:hover {
+  border-color: var(--kd-primary-soft);
+}
+.kd-tile.is-done {
+  border-color: var(--kd-success-soft);
+  background: var(--kd-success-soft);
+}
+.kd-tile-status {
+  font-size: 0.75rem;
+  color: var(--kd-text-muted);
+  margin-top: 4px;
+}
+.kd-tile-status.is-done {
+  color: var(--kd-success);
+  font-weight: 600;
+}

@@ -1,23 +1,9 @@
-# Lab 1.2 - Mission: Den Download-Ordner der Bäckerei aufräumen
+# Lab 1.5 - Mission: Den Download-Ordner der Bäckerei aufräumen
 
 ## Auftrag
 
 Der Download-Ordner der Bäckerei ist unsortiert. Erstellt eine nachvollziehbare
 Ablage, erkennt die Dateitypen und zeigt dem Partner, wo eine Rechnung liegt.
-
-## Ablauf im Raum (ca. 90 Minuten, passend zu 10:45-12:15 im Tagesplan)
-
-- 15 Min. Kurzinput und Demo: Betriebssystem als Vermittler, Datei/Ordner/Pfad/
-  Endung an einem kleinen Baum, Ordner anlegen und Datei verschieben im
-  Dateimanager.
-- 30 Min. Einzel- oder Partnerarbeit: Schritte 1-6 unten (Download-Ordner
-  sortieren).
-- 15 Min. Dateien aus jedem Zielordner öffnen, Dateiendungen als
-  Entscheidungshilfe festigen (siehe Schritt 7).
-- 10 Min. Partner-Challenge "Wo liegt die Rechnung?" (Schritt 8): Rollen
-  wechseln, Pfad im Wechsel zeigen.
-- 10 Min. Sicherung im Plenum: Datei/Ordner unterscheiden, Dateiendung lesen,
-  Datei über ihren Pfad finden.
 
 ## Start
 

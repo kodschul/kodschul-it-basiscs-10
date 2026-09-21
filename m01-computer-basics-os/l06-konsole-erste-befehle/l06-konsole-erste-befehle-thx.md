@@ -1,13 +1,14 @@
 # Modul 1: Bausteine eines Computersystems & Betriebssysteme
 
-## Lab 1.3 – Grafische Oberfläche vs. Konsole & erste Konsolenbefehle
+## Lab 1.6 – Grafische Oberfläche vs. Konsole & erste Konsolenbefehle
 
 ---
 
 **Ziel:** GUI und Konsole unterscheiden und mit `mkdir`, `cd`, `touch` und
 `ls` eine Ordnerstruktur im Übungscomputer erstellen.
 
-GUI und Konsole sind zwei Wege, dasselbe Betriebssystem zu bedienen.
+In Lab 1.5 habt ihr Dateien und Ordner über die grafische Oberfläche (GUI)
+verwaltet. GUI und Konsole sind zwei Wege, dasselbe Betriebssystem zu bedienen.
 
 **Leitfragen:**
 

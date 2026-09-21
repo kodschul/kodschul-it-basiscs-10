@@ -1,4 +1,4 @@
-# Lab 1.2 - Lösung: Den Download-Ordner der Bäckerei aufräumen
+# Lab 1.5 - Lösung: Den Download-Ordner der Bäckerei aufräumen
 
 ## Schritt 1: Dateinamen lesen
 

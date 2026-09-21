@@ -7,18 +7,6 @@ Bauteil-, Funktions- und Fehlerkarten. Ordnet die Karten so, dass klar wird,
 welches Teil welche Aufgabe hat und welches Teil bei einem Problem zuerst
 geprüft werden sollte.
 
-## Ablauf im Raum (ca. 50 Minuten, passend zu 09:40-10:30 im Tagesplan)
-
-- 5 Min. Trainer zeigt die Kernbauteile an einem echten PC oder Fotos.
-- 5 Min. Bauteil- und Funktionskarten werden im Plenum kurz erklärt.
-- 10 Min. Demo: RAM, SSD und HDD werden nach Geschwindigkeit, Kapazität und
-  Dauerhaftigkeit einsortiert.
-- 15 Min. Gruppenarbeit: Schritte 1-5 unten (Karten zuordnen, Speicherstrecke
-  legen, drei Fehlerkarten begründen).
-- 10 Min. Jede Gruppe stellt mindestens eine ihrer Fehlerkarten-Entscheidungen
-  im Plenum vor; die anderen Gruppen prüfen mit den Funktionskarten gegen.
-- 5 Min. Mini-Check (siehe unten) und Übergang zum nächsten Block.
-
 ## Start
 
 Pro Gruppe liegen bereit:

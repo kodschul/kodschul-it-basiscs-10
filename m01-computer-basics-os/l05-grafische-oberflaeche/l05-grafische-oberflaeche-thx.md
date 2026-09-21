@@ -1,23 +1,23 @@
 # Modul 1: Bausteine eines Computersystems & Betriebssysteme
 
-## Lab 1.2 – Betriebssystem, Dateien & Ordner
+## Lab 1.5 – Grafische Oberfläche: Dateien & Ordner
 
 ---
 
 **Ziel:** Dateien, Ordner, Pfade und Dateiendungen sicher einordnen und eine
-nachvollziehbare Ablage im Dateimanager erstellen.
+nachvollziehbare Ablage im Dateimanager (der grafischen Oberfläche) erstellen.
 
-Ein Betriebssystem organisiert Hardware, Programme, Dateien und Rechte.
-Ordner schaffen eine nachvollziehbare Ablage für diese Dateien.
+Die grafische Oberfläche (GUI) zeigt Dateien und Ordner als Symbole und
+Fenster, die sich mit der Maus verschieben, öffnen und sortieren lassen.
 
 **Leitfragen:**
 
 <details>
-<summary>Was macht ein Betriebssystem eigentlich?</summary>
+<summary>Was ist eine grafische Oberfläche (GUI)?</summary>
 
-Es vermittelt zwischen Hardware und Programmen: Programme fragen beim
-Betriebssystem an, wenn sie z. B. eine Datei speichern oder etwas anzeigen
-wollen, statt direkt mit der Hardware zu sprechen.
+Die GUI zeigt Dateien, Ordner und Programme als Symbole und Fenster, die sich
+per Mausklick bedienen lassen – im Gegensatz zur Konsole, die getippte
+Befehle nutzt (siehe Lab 1.6).
 
 </details>
 
@@ -40,21 +40,13 @@ sie, um die Datei automatisch mit einem passenden Programm zu verknüpfen.
 
 ---
 
-## Was ist ein Betriebssystem?
+## Die grafische Oberfläche als Werkzeug
 
-| Begriff        | Definition                                      | Beispiel                                  |
-| -------------- | ----------------------------------------------- | ----------------------------------------- |
-| Betriebssystem | Grundsoftware zwischen Hardware und Anwendungen | Windows, macOS, Linux                     |
-| Anwendung      | Programm für eine konkrete Aufgabe              | Browser, Textverarbeitung, Bildbetrachter |
-| Hardware       | anfassbare Teile eines Computers                | Tastatur, SSD, Bildschirm                 |
-| Nutzerrecht    | erlaubte Aktion einer Person                    | Datei lesen oder ändern                   |
-
-| Aufgabe des Betriebssystems     | Beispiel                                  |
-| ------------------------------- | ----------------------------------------- |
-| Programme starten und verwalten | mehrere Fenster gleichzeitig offen halten |
-| Dateien organisieren            | Ordnerstruktur und Dateisystem            |
-| Hardware ansprechen             | Tastatur, Maus, Bildschirm, Netzwerkkarte |
-| Nutzerrechte verwalten          | festlegen, wer lesen oder ändern darf     |
+| Begriff                    | Definition                                               | Beispiel                       |
+| -------------------------- | -------------------------------------------------------- | ------------------------------ |
+| Grafische Oberfläche (GUI) | Bedienung über Fenster, Symbole und Mausklicks           | Windows-Explorer, macOS Finder |
+| Dateimanager               | Anwendung zum Anzeigen/Verschieben von Dateien & Ordnern | Explorer, Finder, Nautilus     |
+| Anwendung                  | Programm für eine konkrete Aufgabe                       | Browser, Textverarbeitung      |
 
 ---
 
@@ -96,6 +88,6 @@ sie, um die Datei automatisch mit einem passenden Programm zu verknüpfen.
 
 ## Fazit
 
-- Das Betriebssystem vermittelt zwischen Hardware, Programmen und Dateien.
+- Die grafische Oberfläche zeigt Dateien und Ordner als Symbole und Fenster.
 - Ein Pfad beschreibt den Ort einer Datei im Ordnerbaum.
 - Dateiendungen helfen bei der Wahl eines passenden Programms.

@@ -1,4 +1,4 @@
-# Lab 1.3 - Lösung: Die Bäckerei im Terminal verwalten
+# Lab 1.6 - Lösung: Die Bäckerei im Terminal verwalten
 
 ## Teil A - Schritt 1-4: Bäckerei-Struktur anlegen
 

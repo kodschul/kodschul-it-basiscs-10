@@ -1,14 +1,36 @@
 # Modul 1: Bausteine eines Computersystems & Betriebssysteme
 
-## Lab 1.1 – Bauteile eines Computers & Speicherarten
+## Lab 1.1 – Informationen, Daten & Software vs. Hardware
 
 ---
 
-**Ziel:** CPU, RAM, Mainboard, Netzteil und Storage unterscheiden sowie
-begrunden, welches Bauteil zu einem einfachen Fehlerbild passt.
+**Ziel:** Information, Nachricht und Daten unterscheiden, Software von
+Hardware abgrenzen und die fünf Kernbauteile eines Computers dazu als
+konkrete Hardware-Beispiele einordnen.
 
-Ein Rechner braucht Strom, Verbindung, Rechenleistung, Arbeitsspeicher und
-dauerhaften Speicher. Die Komponenten unten decken diese Aufgaben ab.
+Ein Computer verarbeitet Daten mit Hilfe von Hardware (anfassbaren Teilen)
+und Software (Programmen, die diese Teile steuern).
+
+<details>
+<summary>Was ist der Unterschied zwischen Information, Nachricht und Daten?</summary>
+
+Eine Information ist ein Wissen ("Das Brot ist ausverkauft"). Eine Nachricht
+ist die Übermittlungsform dieser Information (ein Zettel, ein Anruf, eine
+SMS). Daten sind die gespeicherte, meist digitale Form davon (ein
+Textfeld in der Kassensoftware). Dieselbe Information kann als
+unterschiedliche Nachricht übertragen und als unterschiedliche Daten
+gespeichert werden.
+
+</details>
+
+<details>
+<summary>Woran erkennt man Software im Unterschied zu Hardware?</summary>
+
+Hardware kann man anfassen (Tastatur, SSD, Bildschirm). Software besteht aus
+Befehlen und Daten, die auf der Hardware laufen, aber selbst nicht anfassbar
+sind (Betriebssystem, Kassenprogramm, Browser).
+
+</details>
 
 <details>
 <summary>Welche Bauteile braucht ein Computer mindestens, um zu funktionieren?</summary>
@@ -38,6 +60,28 @@ auf der SSD) einspringen muss.
 </details>
 
 ---
+
+## Information, Nachricht und Daten
+
+| Begriff     | Definition                                          | Bäckerei-Beispiel                             |
+| ----------- | --------------------------------------------------- | --------------------------------------------- |
+| Information | Wissen über einen Sachverhalt                       | "Der Sauerteig braucht noch 2 Stunden."       |
+| Nachricht   | Form, in der eine Information übertragen wird       | Zuruf in der Backstube, Zettel am Kühlschrank |
+| Daten       | gespeicherte, meist digitale Form einer Information | Eintrag "Status: gärt" in der Kassensoftware  |
+
+- Dieselbe Information lässt sich als unterschiedliche Nachricht übertragen
+  (mündlich, schriftlich, digital).
+- Daten sind das, was ein Computer tatsächlich speichert und verarbeitet.
+
+## Software und Hardware
+
+| Begriff  | Definition                                   | Beispiel                                |
+| -------- | -------------------------------------------- | --------------------------------------- |
+| Hardware | anfassbare, physische Teile eines Computers  | CPU, RAM, Tastatur, Bildschirm          |
+| Software | Programme und Daten, die auf Hardware laufen | Betriebssystem, Kassenprogramm, Browser |
+
+- Hardware ohne Software kann nichts sinnvoll tun; sie hat keine Anweisungen.
+- Software ohne Hardware kann nicht ausgeführt werden; ihr fehlt die Rechenbasis.
 
 ## Die fünf Kernbauteile
 
@@ -84,6 +128,9 @@ fasst viel mehr, ist aber langsamer zu erreichen.
 
 ## Fazit
 
+- Information, Nachricht und Daten sind unterschiedliche Begriffe, die
+  zusammenhängen.
+- Hardware ist anfassbar, Software besteht aus Programmen und Daten darauf.
 - CPU, RAM, Mainboard, Netzteil und SSD haben klar getrennte Aufgaben.
 - RAM ist schnell und kurzfristig; SSD und HDD speichern dauerhaft.
 - Geschwindigkeit, Kapazität und Dauerhaftigkeit sind unterschiedliche Eigenschaften.

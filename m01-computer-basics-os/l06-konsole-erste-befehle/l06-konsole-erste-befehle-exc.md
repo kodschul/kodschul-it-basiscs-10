@@ -1,12 +1,10 @@
-# Lab 1.3 - Übung: Die Bäckerei im Terminal verwalten
+# Lab 1.6 - Übung: Die Bäckerei im Terminal verwalten
 
 ## Auftrag
 
-Diese Übung deckt zwei Blöcke des Tagesplans ab und dauert dadurch insgesamt
-etwa 3 Stunden, nicht 20-30 Minuten: Teil A baut die Dateistruktur einer
-Bäckerei im Terminal auf (13:15-14:45), Teil B sucht darin eine verlorene
-Datei (15:00-16:30). Die vier Befehle `mkdir`, `cd`, `touch` und `ls` reichen
-für beide Teile aus.
+Diese Übung hat zwei Teile: Teil A baut die Dateistruktur einer Bäckerei im
+Terminal auf, Teil B sucht darin eine verlorene Datei. Die vier Befehle
+`mkdir`, `cd`, `touch` und `ls` reichen für beide Teile aus.
 
 ## Start
 
@@ -18,19 +16,7 @@ für beide Teile aus.
 
 ---
 
-## Teil A - Mission "Die Bäckerei im Terminal bauen" (ca. 90 Minuten, 13:15-14:45)
-
-- 15 Min. Live-Demo: dieselbe Ordneraufgabe einmal im Dateimanager, einmal im
-  Terminal. Beobachtungsfrage: Was ist gleich, was anders?
-- 15 Min. Trainer startet den Übungscomputer; Linux, Alpine, Docker und
-  Container werden heute nur gezeigt, nicht erklärt. Leitfrage: "Wie gebe ich
-  diesem Computer Befehle?"
-- 35 Min. Gruppen- oder Einzelarbeit: Schritte 1-4 unten, Befehl für Befehl,
-  mit Zwischenstopp nach jedem Ordner.
-- 15 Min. Partnerkontrolle mit `ls` (Schritt 5): Struktur und Dateinamen
-  gegeneinander prüfen.
-- 10 Min. Kurzreflexion: Welcher Befehl erstellt, wechselt, zeigt oder legt
-  eine Datei an?
+## Teil A - Mission "Die Bäckerei im Terminal bauen"
 
 ### Schritte (Teil A)
 
@@ -58,17 +44,10 @@ baeckerei/
 
 ---
 
-## Teil B - Mission "Finde die Datei" (ca. 90 Minuten, 15:00-16:30)
+## Teil B - Mission "Finde die Datei"
 
-- 10 Min. Auftrag erklären: `rechnung_2025.txt` liegt irgendwo in
-  `suchspiel/`. Erlaubt sind nur `ls`, `cd` und `cd ..`.
-- 30 Min. Einzel- oder Partnerarbeit: Schritt 6 unten (Ordner mit `ls`
-  prüfen, mit `cd` navigieren, bei Sackgassen mit `cd ..` zurückgehen).
-- 15 Min. Partnerkontrolle: Zielordner und `rechnung_2025.txt` mit `ls`
-  zeigen; anschliessend erklärt jede Person ihren Suchweg.
-- 20 Min. "Kann ich?"-Check (Schritt 7) zu Hardware, Dateien, `cd`, `mkdir`,
-  `touch` und `ls`; offene Punkte im Plenum sichtbar sammeln.
-- 15 Min. Tagesabschluss und Ausblick auf Tag 2 (Netzwerke).
+`rechnung_2025.txt` liegt irgendwo in `suchspiel/`. Erlaubt sind nur `ls`, `cd`
+und `cd ..`.
 
 ### Schritte (Teil B)
 
