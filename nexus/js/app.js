@@ -14,6 +14,7 @@ const App = (() => {
     CloudModule,
     DatabaseModule,
     VirtualizationModule,
+    ExamModule,
     QuizModule,
   ];
 
