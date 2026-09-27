@@ -25,13 +25,13 @@ Geteilte Start- und Referenzzustände, siehe [project/README.md](project/README.
 
 ```
 project/
-├── starter/                     # Ausgangszustände für Übungen (Modul 1, 2)
+├── starter/                     # Ausgangszustände für Übungen (Modul 1, 2, 7)
 └── checkpoints/                 # Referenzstände je Modul-Meilenstein
     ├── m01-baeckerei-terminal/  # Ordnerstruktur nach Modul 1
     ├── m02-m03-baeckerei-site/  # Client/Server-Demo + Docker-Image nach Modul 2-3
     ├── m04-baeckerei-db/        # MySQL/Adminer + MongoDB nach Modul 4
     ├── m06-datenschutz/         # Rechte-Beispiel nach Modul 6
-    └── m08-faq-bot/             # KI-API-Skript + FAQ-Bot nach Modul 8
+    └── m07-m08-baeckerei-todo-app/  # Konsolen-App -> Web-Frontend/Backend -> agentische Erweiterung (Modul 7-8)
 ```
 
 Ein Checkpoint ist ein Referenzstand, kein Lückenfüller für nicht selbst bearbeitete Übungen - er zeigt, wie das Ergebnis nach dem jeweiligen Modul aussehen sollte, falls der eigene Stand verglichen oder wiederhergestellt werden muss.

@@ -4,8 +4,9 @@
 
 ---
 
-**Ziel:** Das eigene Miniprojekt (z. B. FAQ-Bot) anhand von Feedback nachschärfen
-und in einer kurzen Präsentation vor der Gruppe vorstellen.
+**Ziel:** Das eigene Miniprojekt (die generische Bäckerei-Todo-App aus Modul 7-8 oder die eigene
+Projektidee) anhand von Feedback nachschärfen und in einer kurzen Präsentation vor der Gruppe
+vorstellen.
 
 - Ein Feedback-Durchgang mit dem Trainer klärt, was am eigenen Projekt schon gut funktioniert und was noch fehlt.
 - Ein Recap-Aufgabenblatt wiederholt kurze Aufgaben aus mehreren Modulen als letzten Check vor der Prüfung.
@@ -13,7 +14,7 @@ und in einer kurzen Präsentation vor der Gruppe vorstellen.
 
 <details><summary>Worauf achtet das Trainer-Feedback beim Miniprojekt?</summary>
 
-Ob das Projekt seine eigene Aufgabenstellung erfüllt (z. B. der FAQ-Bot beantwortet die vorgesehenen Fragen), ob der Code nachvollziehbar ist, und welcher nächste Schritt das Projekt sinnvoll verbessern würde.
+Ob das Projekt seine eigene Aufgabenstellung erfüllt (z. B. die Todo-App deckt Anlegen/Anzeigen/Ändern/Löschen vollständig ab), ob der Code nachvollziehbar ist, und welcher nächste Schritt das Projekt sinnvoll verbessern würde.
 
 </details>
 
@@ -28,13 +29,6 @@ Es deckt kurze, konkrete Aufgaben aus mehreren Modulen ab (z. B. einen `chmod`-B
 Eine kurze Einordnung des Projektziels, eine Live-Vorführung, und mindestens ein ehrlich genannter offener Punkt oder nächster Schritt.
 
 </details>
-
-## Ablauf des Reviews
-
-1. Trainer geht reihum, jede Person zeigt kurz den aktuellen Stand des eigenen Projekts.
-2. Feedback in Stichpunkten: was funktioniert, was fehlt noch.
-3. Recap-Aufgabenblatt in Einzelarbeit oder Partnerarbeit bearbeiten.
-4. Projektpräsentationen im Plenum (je 5-8 Minuten), mit kurzem Feedback danach.
 
 ![Präsentation vor Gruppe Symbolbild](https://loremflickr.com/640/360/presentation,audience)
 

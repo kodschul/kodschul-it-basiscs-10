@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Bäckerei-Bestellungen</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            max-width: 480px;
+            margin: 2rem auto;
+        }
+
+        form {
+            display: flex;
+            gap: 0.5rem;
+            margin-bottom: 1rem;
+        }
+
+        ul {
+            border: 1px solid #ccc;
+            padding: 1rem 1.5rem;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Bäckerei-Bestellungen</h1>
+    <form method="POST" action="/bestellungen">
+        <input name="produkt" placeholder="Produkt" required />
+        <input name="menge" type="number" placeholder="Menge" required />
+        <button type="submit">Hinzufügen</button>
+    </form>
+    <ul id="bestellliste">
+        <li>Roggenbrot - Menge 10</li>
+    </ul>
+</body>
+
+</html>

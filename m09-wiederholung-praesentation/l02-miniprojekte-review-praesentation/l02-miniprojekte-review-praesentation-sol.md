@@ -2,7 +2,7 @@
 
 ## Schritt 1-3: Beispielhaftes Feedback
 
-Beispiel-Feedback zu einem FAQ-Bot-Projekt: "Beantwortet die drei Kernfragen zuverlaessig, sollte aber bei themenfremden Fragen konsequenter ablehnen." Direkt umgesetzt: der Kontext-Text wurde um einen deutlicheren Ablehnungshinweis ergaenzt.
+Beispiel-Feedback zur Baeckerei-Todo-App: "Anlegen und Anzeigen funktionieren zuverlaessig, das Loeschen sollte aber vor dem Ausfuehren eine Bestaetigung verlangen." Direkt umgesetzt: der Loeschen-Button wurde um ein `confirm(...)`-Dialogfeld ergaenzt.
 
 ## Schritt 4: Beispiel-Loesungen Recap-Aufgabenblatt
 
@@ -14,8 +14,8 @@ Beispiel-Feedback zu einem FAQ-Bot-Projekt: "Beantwortet die drei Kernfragen zuv
 
 ## Schritt 5-6: Beispielhafte Praesentationsstruktur
 
-"Mein FAQ-Bot beantwortet Fragen zu Oeffnungszeiten und Produkten der Baeckerei Sonnenkorn. [Live-Demo: 2 Beispielfragen] Offener Punkt: Preise sind noch nicht im Kontext hinterlegt."
+"Meine Baeckerei-Todo-App zeigt Bestellungen an, legt neue an und markiert sie als erledigt. [Live-Demo: Bestellung anlegen, erledigen, loeschen] Offener Punkt: die Kategorie-Vorschlaege der KI-API sind noch nicht immer treffend."
 
 ## Zusatzaufgabe
 
-Beispiel: "Die Idee, den Bot auch Lieferzeiten fuer Grossbestellungen beantworten zu lassen, war in einer anderen Praesentation zu sehen und laesst sich einfach uebernehmen."
+Beispiel: "Die Idee, in der Uebersicht auch die Tagessumme aller offenen Bestellungen anzuzeigen, war in einer anderen Praesentation zu sehen und laesst sich einfach uebernehmen."

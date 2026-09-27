@@ -6,7 +6,8 @@ Das eigene Miniprojekt im Feedback-Durchgang mit dem Trainer besprechen, das Rec
 
 ## Start
 
-Das eigene Miniprojekt aus Modul 8 (z. B. FAQ-Bot) und das Recap-Aufgabenblatt (kurze Aufgaben aus mehreren Modulen) stehen bereit.
+Das eigene Miniprojekt aus Modul 7-8 (die generische Bäckerei-Todo-App oder die eigene
+Projektidee) und das Recap-Aufgabenblatt (kurze Aufgaben aus mehreren Modulen) stehen bereit.
 
 ## Schritte
 

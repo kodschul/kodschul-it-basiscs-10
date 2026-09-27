@@ -6,20 +6,20 @@ Dieser Ordner sammelt die Start- und Referenzzustände, die mehr als ein Modul b
 
 ## Wie sich die Bäckerei-Verwaltung entwickelt
 
-| Modul                       | Was entsteht                                                                      | Ablageort                                                |
-| --------------------------- | --------------------------------------------------------------------------------- | -------------------------------------------------------- |
-| M1 Computer-Basics          | Ordnerstruktur `baeckerei/{produkte,kunden,bestellungen}` im Terminal angelegt    | `checkpoints/m01-baeckerei-terminal/`                    |
-| M2 Netzwerke                | Client/Server-Demo (zwei Container, Website via `docker compose`)                 | `checkpoints/m02-m03-baeckerei-site/baeckerei-netzwerk/` |
-| M3 Cloud & Deployment       | Dieselbe Website als eigenes Docker-Image (`baeckerei-site`) verpackt             | `checkpoints/m02-m03-baeckerei-site/baeckerei-site/`     |
-| M4 Datenbanken              | MySQL-Tabelle `produkte` (Adminer) + MongoDB-Sammlungen `produkte`/`bestellungen` | `checkpoints/m04-baeckerei-db/`                          |
-| M6 Datenschutz & Sicherheit | `kundendaten.txt` mit demonstrierten Zugriffsrechten (`chmod`)                    | `checkpoints/m06-datenschutz/`                           |
-| M7-M8 Programmierung & KI   | Eigenes PowerShell-Skript mit KI-API-Anfrage, daraus der FAQ-Bot                  | `checkpoints/m08-faq-bot/`                               |
+| Modul                       | Was entsteht                                                                                                               | Ablageort                                                              |
+| --------------------------- | -------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------- |
+| M1 Computer-Basics          | Ordnerstruktur `baeckerei/{produkte,kunden,bestellungen}` im Terminal angelegt                                             | `checkpoints/m01-baeckerei-terminal/`                                  |
+| M2 Netzwerke                | Client/Server-Demo (zwei Container, Website via `docker compose`)                                                          | `checkpoints/m02-m03-baeckerei-site/baeckerei-netzwerk/`               |
+| M3 Cloud & Deployment       | Dieselbe Website als eigenes Docker-Image (`baeckerei-site`) verpackt                                                      | `checkpoints/m02-m03-baeckerei-site/baeckerei-site/`                   |
+| M4 Datenbanken              | MySQL-Tabelle `produkte` (Adminer) + MongoDB-Sammlungen `produkte`/`bestellungen`                                          | `checkpoints/m04-baeckerei-db/`                                        |
+| M6 Datenschutz & Sicherheit | `kundendaten.txt` mit demonstrierten Zugriffsrechten (`chmod`)                                                             | `checkpoints/m06-datenschutz/`                                         |
+| M7-M8 Programmierung & KI   | Startdatei `baeckerei.db` (SQLite) -> Konsolen-CRUD-App -> KI-generiertes Web-Frontend + Backend -> agentische Erweiterung | `starter/baeckerei-todo/` -> `checkpoints/m07-m08-baeckerei-todo-app/` |
 
 Module 5, 9 und 10 nutzen die Bäckerei-Verwaltung nicht (eigenständige Szenarien: Azure/M365-Testtenant bzw. Wiederholung/Prüfung).
 
 ## Ordnerrollen
 
-- `starter/`: bewusst unfertige/unsortierte Ausgangszustände, mit denen eine Übung beginnt (z. B. der unsortierte `download-chaos/`-Ordner für Lab 1.2).
+- `starter/`: bewusst unfertige/unsortierte Ausgangszustände, mit denen eine Übung beginnt (z. B. der unsortierte `download-chaos/`-Ordner für Lab 1.2, oder die leere `baeckerei.db` für Lab 7.3).
 - `checkpoints/`: funktionsfähige Referenzstände nach dem jeweiligen Modul - Vergleichsbasis, falls der eigene Stand nicht mehr zum erwarteten Ergebnis passt.
 
 ## Hinweis zu Platzhalterdateien
@@ -28,4 +28,4 @@ Dateien wie `rechnung-mai.pdf`, `teamfoto.png` etc. in `starter/download-chaos/`
 
 ## Sicherheits- und Datenschutzhinweis
 
-Alle Namen, Adressen und Zugangsdaten in diesem Ordner sind frei erfunden (fiktive Beispielfirma "Bäckerei Sonnenkorn"/"Bäckerei-Verwaltung"). Es werden keine echten Kunden- oder Firmendaten verwendet. API-Zugangsschlüssel in `checkpoints/m08-faq-bot/` sind Platzhalter (`$env:KI_API_KEY`) - vor der Schulung müssen echte Testzugangsdaten separat und sicher bereitgestellt werden, nie im Repo selbst.
+Alle Namen, Adressen und Zugangsdaten in diesem Ordner sind frei erfunden (fiktive Beispielfirma "Bäckerei Sonnenkorn"/"Bäckerei-Verwaltung"). Es werden keine echten Kunden- oder Firmendaten verwendet. API-Zugangsschlüssel in `checkpoints/m07-m08-baeckerei-todo-app/` sind Platzhalter (`$env:KI_API_KEY`/`KI_API_KEY`) - vor der Schulung müssen echte Testzugangsdaten separat und sicher bereitgestellt werden, nie im Repo selbst.
