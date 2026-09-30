@@ -1,0 +1,6 @@
+----------------
+-----INVOICE----
+Qty	| Name			| Unit Price 		| TOTAL
+1 	| Mango			| 2 EUR		| 2 EUR
+2 	| Lemonade			| 1.5 EUR		| 3.0 EUR
+3 	| Orange			| 3.5 EUR		| 10.5 EUR
