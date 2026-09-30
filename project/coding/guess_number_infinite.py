@@ -1,14 +1,11 @@
 from random import randint
-
 random_num = randint(1, 10)
-
-
 max_attemps = 3
 attempt_no = 1
-
 is_running = True 
 is_won = False
 
+guess_values = []
 
 while is_running and attempt_no  <= max_attemps: 
     guess = int(input(f"Guess a num between 1-10 ({attempt_no}/{max_attemps}): "))
