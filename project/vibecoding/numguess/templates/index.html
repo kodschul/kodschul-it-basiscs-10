@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Zahlenratespiel</title>
+
+    <link
+        rel="stylesheet"
+        href="{{ url_for('static', filename='style.css') }}"
+    >
+</head>
+
+<body>
+
+    <main class="game-container">
+
+        <h1>Zahlenratespiel</h1>
+
+        <p>
+            Gib deinen Tipp ein:
+        </p>
+
+        <!--
+            Das Formular sendet die eingegebene Zahl
+            per POST an die Flask-Route /guess.
+        -->
+        <form action="{{ url_for('guess') }}" method="POST">
+
+            <input
+                type="number"
+                name="guess"
+                placeholder="Dein Tipp"
+                required
+            >
+
+            <button type="submit">
+                Tipp abgeben
+            </button>
+
+        </form>
+
+
+        <!-- Ergebnis von Flask anzeigen -->
+        {% if message %}
+            <div class="message
+                {% if won %}success{% endif %}
+                {% if game_over %}error{% endif %}
+            ">
+                {{ message }}
+            </div>
+        {% endif %}
+
+
+        <!-- Neues Spiel -->
+        <form action="{{ url_for('new_game') }}" method="POST">
+
+            <button
+                type="submit"
+                class="new-game-button"
+            >
+                Neues Spiel
+            </button>
+
+        </form>
+
+    </main>
+
+</body>
+</html>
