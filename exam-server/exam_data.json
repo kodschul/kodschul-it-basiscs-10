@@ -1,0 +1,780 @@
+{
+  "slots": [
+    {
+      "module": "M1 Computer & Betriebssysteme",
+      "variants": [
+        {
+          "q": "Eine Kollegin öffnet gleichzeitig 20 Browser-Tabs, der PC wird spürbar langsamer. Welche Komponente ist dafür am ehesten verantwortlich?",
+          "options": [
+            "CPU",
+            "RAM",
+            "Netzteil",
+            "Monitor"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "Ein Kollege rendert ein Video, der PC braucht dafür sehr lange. Welche Komponente ist dafür hauptsächlich zuständig?",
+          "options": [
+            "RAM",
+            "CPU",
+            "Netzteil",
+            "Tastatur"
+          ],
+          "correct": 1
+        }
+      ]
+    },
+    {
+      "module": "M1 Computer & Betriebssysteme",
+      "variants": [
+        {
+          "q": "Nach einem Stromausfall sind alle offenen, ungespeicherten Dokumente weg, gespeicherte Dateien auf der SSD aber noch da. Warum?",
+          "options": [
+            "RAM ist flüchtig, SSD ist es nicht",
+            "SSD ist flüchtig",
+            "Dokumente werden nie gespeichert",
+            "Stromausfälle löschen SSDs"
+          ],
+          "correct": 0
+        },
+        {
+          "q": "Ein USB-Stick behält nach dem Abziehen alle Dateien, ein offenes Notizfenster im RAM nicht. Was erklärt das?",
+          "options": [
+            "USB-Speicher ist wie RAM flüchtig",
+            "RAM ist flüchtig, USB-Speicher nicht",
+            "Beides ist flüchtig",
+            "Beides ist nichtflüchtig"
+          ],
+          "correct": 1
+        }
+      ]
+    },
+    {
+      "module": "M1 Computer & Betriebssysteme",
+      "variants": [
+        {
+          "q": "Was übernimmt bei einem Computer hauptsächlich das Betriebssystem?",
+          "options": [
+            "Verwaltet Hardware und lässt Programme laufen",
+            "Zeigt nur Webseiten an",
+            "Ersetzt die Tastatur",
+            "Speichert nur Passwörter"
+          ],
+          "correct": 0
+        },
+        {
+          "q": "Ein PC ohne Betriebssystem lässt sich nicht sinnvoll nutzen. Warum?",
+          "options": [
+            "Es fehlt die Vermittlung zwischen Hardware und Programmen",
+            "Es fehlt nur der Monitor",
+            "Es fehlt nur das Internet",
+            "Es fehlt nur der Drucker"
+          ],
+          "correct": 0
+        }
+      ]
+    },
+    {
+      "module": "M1 Computer & Betriebssysteme",
+      "variants": [
+        {
+          "q": "Welcher Befehl zeigt im Terminal den Inhalt des aktuellen Ordners an?",
+          "options": [
+            "cd",
+            "ls",
+            "rm",
+            "pwd"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "Mit welchem Befehl wechselt man im Terminal in einen anderen Ordner?",
+          "options": [
+            "ls",
+            "mkdir",
+            "cd",
+            "cat"
+          ],
+          "correct": 2
+        }
+      ]
+    },
+    {
+      "module": "M2 Netzwerke",
+      "variants": [
+        {
+          "q": "Im Browser wird `shop.baeckerei.de` eingegeben statt einer IP-Adresse. Was übersetzt diesen Namen in eine IP-Adresse?",
+          "options": [
+            "DNS",
+            "DHCP",
+            "VPN",
+            "Firewall"
+          ],
+          "correct": 0
+        },
+        {
+          "q": "Eine Anwendung erreicht eine Webseite per Namen, obwohl sie technisch nur mit IP-Adressen kommuniziert. Welcher Dienst macht das möglich?",
+          "options": [
+            "Firewall",
+            "DNS",
+            "Router-Login",
+            "Antivirus"
+          ],
+          "correct": 1
+        }
+      ]
+    },
+    {
+      "module": "M2 Netzwerke",
+      "variants": [
+        {
+          "q": "Welcher Port wird normalerweise für unverschlüsselte Webseiten (HTTP) genutzt?",
+          "options": [
+            "22",
+            "80",
+            "443",
+            "3306"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "Welcher Port wird normalerweise für verschlüsselte Webseiten (HTTPS) genutzt?",
+          "options": [
+            "21",
+            "80",
+            "443",
+            "25"
+          ],
+          "correct": 2
+        }
+      ]
+    },
+    {
+      "module": "M2 Netzwerke",
+      "variants": [
+        {
+          "q": "Ein Laptop ruft eine Webseite auf einem entfernten Server auf. Wer sendet dabei zuerst eine Anfrage?",
+          "options": [
+            "Der Server",
+            "Der Client",
+            "Der Router",
+            "Der DNS-Server"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "Beim Öffnen einer Webseite liefert etwas die Seiteninhalte zurück. Wer liefert diese Antwort?",
+          "options": [
+            "Der Client",
+            "Der Server",
+            "Der Switch",
+            "Das Kabel"
+          ],
+          "correct": 1
+        }
+      ]
+    },
+    {
+      "module": "M2 Netzwerke",
+      "variants": [
+        {
+          "q": "Wozu dient eine IP-Adresse in einem Netzwerk?",
+          "options": [
+            "Eindeutige Adressierung eines Geräts",
+            "Verschlüsselung von Passwörtern",
+            "Anzeige von Bildern",
+            "Speichern von Dateien"
+          ],
+          "correct": 0
+        },
+        {
+          "q": "Zwei Geräte im gleichen Netzwerk sollen sich gegenseitig erreichen. Was brauchen sie dafür zwingend?",
+          "options": [
+            "Jeweils eine eigene IP-Adresse",
+            "Den gleichen Bildschirmschoner",
+            "Eine gemeinsame Tastatur",
+            "Ein gemeinsames Passwort"
+          ],
+          "correct": 0
+        }
+      ]
+    },
+    {
+      "module": "M3 Cloud & Docker",
+      "variants": [
+        {
+          "q": "Welche Datei beschreibt, wie ein Docker-Image gebaut wird?",
+          "options": [
+            "README.md",
+            "Dockerfile",
+            "package.json",
+            "index.html"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "Womit legt man fest, welche Schritte beim Bauen eines Docker-Images ausgeführt werden?",
+          "options": [
+            "Einer Dockerfile",
+            "Einer .gitignore",
+            "Einem Screenshot",
+            "Einer .zip-Datei"
+          ],
+          "correct": 0
+        }
+      ]
+    },
+    {
+      "module": "M3 Cloud & Docker",
+      "variants": [
+        {
+          "q": "Ein Docker-Image ist fertig gebaut, soll aber noch nicht laufen. Welcher Befehl startet daraus einen Container?",
+          "options": [
+            "docker build",
+            "docker run",
+            "docker ls",
+            "docker rm"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "Ein Image ist vorhanden, aber `docker ps` zeigt keinen laufenden Container. Was fehlt noch?",
+          "options": [
+            "docker build ausführen",
+            "docker run ausführen",
+            "docker rm ausführen",
+            "nichts, das Image reicht"
+          ],
+          "correct": 1
+        }
+      ]
+    },
+    {
+      "module": "M3 Cloud & Docker",
+      "variants": [
+        {
+          "q": "Was ist ein Vorteil von Containern gegenüber klassischen virtuellen Maschinen?",
+          "options": [
+            "Sie sind meist leichter/schneller startbar",
+            "Sie brauchen immer ein eigenes Betriebssystem",
+            "Sie können nicht in der Cloud laufen",
+            "Sie sind komplett unveränderlich"
+          ],
+          "correct": 0
+        },
+        {
+          "q": "Warum lassen sich mehrere Docker-Container oft schneller starten als mehrere komplette virtuelle Maschinen?",
+          "options": [
+            "Weil sie kein eigenes vollständiges Betriebssystem mitbringen müssen",
+            "Weil sie keine Dateien speichern",
+            "Weil sie kein Netzwerk brauchen",
+            "Weil sie nur auf USB-Sticks laufen"
+          ],
+          "correct": 0
+        }
+      ]
+    },
+    {
+      "module": "M4 Datenbanken",
+      "variants": [
+        {
+          "q": "Eine Bäckerei speichert Produkte in Tabellen mit festen Spalten (Name, Preis, Bestand). Um welche Art Datenbank handelt es sich am ehesten?",
+          "options": [
+            "Relationale Datenbank",
+            "Dokumentenorientierte Datenbank",
+            "Key-Value-Speicher",
+            "Keine Datenbank"
+          ],
+          "correct": 0
+        },
+        {
+          "q": "Eine App speichert jede Bestellung als flexibles Dokument mit unterschiedlich vielen Feldern. Um welche Art Datenbank handelt es sich am ehesten?",
+          "options": [
+            "Relationale Datenbank",
+            "Dokumentenorientierte Datenbank (z. B. MongoDB)",
+            "Ein Texteditor",
+            "Ein Dateisystem"
+          ],
+          "correct": 1
+        }
+      ]
+    },
+    {
+      "module": "M4 Datenbanken",
+      "variants": [
+        {
+          "q": "In `bestellungen` steht nur eine `produkt_id`, der Produktname steht in `produkte`. Womit kombiniert man beide Tabellen in einer Abfrage?",
+          "options": [
+            "JOIN",
+            "DELETE",
+            "DROP",
+            "RENAME"
+          ],
+          "correct": 0
+        },
+        {
+          "q": "Zwei Tabellen sollen über eine gemeinsame ID-Spalte zu einem Ergebnis kombiniert werden. Welcher SQL-Befehl macht das?",
+          "options": [
+            "UPDATE",
+            "JOIN",
+            "INSERT",
+            "ALTER"
+          ],
+          "correct": 1
+        }
+      ]
+    },
+    {
+      "module": "M4 Datenbanken",
+      "variants": [
+        {
+          "q": "Ein neuer Datensatz soll in eine Tabelle eingefügt werden. Welcher SQL-Befehl macht das?",
+          "options": [
+            "SELECT",
+            "INSERT",
+            "DELETE",
+            "UPDATE"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "Ein bestehender Preis in einer Produkttabelle soll geändert werden. Welcher SQL-Befehl macht das?",
+          "options": [
+            "UPDATE",
+            "INSERT",
+            "CREATE",
+            "DROP"
+          ],
+          "correct": 0
+        }
+      ]
+    },
+    {
+      "module": "M4 Datenbanken",
+      "variants": [
+        {
+          "q": "Adminer zeigt Tabellen einer MySQL-Datenbank im Browser an. Welche Rolle hat Adminer dabei?",
+          "options": [
+            "Adminer ist der Client, MySQL der Server",
+            "MySQL ist der Client",
+            "Beide sind Server",
+            "Beide sind Clients"
+          ],
+          "correct": 0
+        },
+        {
+          "q": "Ein Admin-Tool fragt Daten bei einer laufenden Datenbank an, statt sie selbst zu speichern. Welche Rolle hat das Admin-Tool dabei?",
+          "options": [
+            "Client",
+            "Server",
+            "Router",
+            "Firewall"
+          ],
+          "correct": 0
+        }
+      ]
+    },
+    {
+      "module": "M5 Virtualisierung & MS-Cloud",
+      "variants": [
+        {
+          "q": "Was ist eine virtuelle Maschine (VM) im Kern?",
+          "options": [
+            "Ein simulierter Computer auf echter Hardware",
+            "Ein physisches zweites Gerät",
+            "Ein Dateiformat",
+            "Ein Netzwerkkabel"
+          ],
+          "correct": 0
+        },
+        {
+          "q": "Auf einem Host-Rechner laufen mehrere voneinander isolierte 'Computer'. Wie nennt man diese isolierten Umgebungen?",
+          "options": [
+            "Snapshots",
+            "Virtuelle Maschinen",
+            "Domains",
+            "Ports"
+          ],
+          "correct": 1
+        }
+      ]
+    },
+    {
+      "module": "M5 Virtualisierung & MS-Cloud",
+      "variants": [
+        {
+          "q": "Vor einer riskanten Änderung an einer VM wird der aktuelle Zustand gesichert, um notfalls zurückzuspringen. Wie heißt diese Sicherung?",
+          "options": [
+            "Snapshot",
+            "Deployment",
+            "Firewall-Regel",
+            "DNS-Eintrag"
+          ],
+          "correct": 0
+        },
+        {
+          "q": "Nach einer fehlgeschlagenen Softwareinstallation soll eine VM in den Zustand von vor 10 Minuten zurückgesetzt werden. Was braucht man dafür?",
+          "options": [
+            "Einen vorher erstellten Snapshot",
+            "Ein neues Passwort",
+            "Eine neue IP-Adresse",
+            "Einen DNS-Eintrag"
+          ],
+          "correct": 0
+        }
+      ]
+    },
+    {
+      "module": "M5 Virtualisierung & MS-Cloud",
+      "variants": [
+        {
+          "q": "In welchem Bereich legt man in Microsoft 365 typischerweise neue Nutzerkonten für Mitarbeitende an?",
+          "options": [
+            "M365 Admin Center",
+            "Docker Desktop",
+            "VirtualBox",
+            "Adminer"
+          ],
+          "correct": 0
+        },
+        {
+          "q": "Wo verwaltet man zentral Lizenzen und Nutzerkonten einer Microsoft-365-Organisation?",
+          "options": [
+            "Im M365 Admin Center",
+            "Auf einem USB-Stick",
+            "In einer Dockerfile",
+            "In VirtualBox"
+          ],
+          "correct": 0
+        }
+      ]
+    },
+    {
+      "module": "M6 Datenschutz & Sicherheit",
+      "variants": [
+        {
+          "q": "Welcher `chmod`-Wert erlaubt nur dem Owner Lesen und Schreiben, sonst niemandem irgendetwas?",
+          "options": [
+            "600",
+            "777",
+            "444",
+            "700"
+          ],
+          "correct": 0
+        },
+        {
+          "q": "Welcher `chmod`-Wert erlaubt dem Owner alle Rechte (Lesen/Schreiben/Ausführen) und allen anderen nur Lesen?",
+          "options": [
+            "744",
+            "600",
+            "000",
+            "400"
+          ],
+          "correct": 0
+        }
+      ]
+    },
+    {
+      "module": "M6 Datenschutz & Sicherheit",
+      "variants": [
+        {
+          "q": "Was macht ein Passwort grundsätzlich sicherer gegen Erraten?",
+          "options": [
+            "Länge und Komplexität (Zeichenmix)",
+            "Ein kurzer, gut merkbarer Name",
+            "Die Verwendung des eigenen Geburtsdatums",
+            "Wiederverwendung auf allen Konten"
+          ],
+          "correct": 0
+        },
+        {
+          "q": "Warum ist die Wiederverwendung desselben Passworts auf mehreren Konten riskant?",
+          "options": [
+            "Ein Leck bei einem Dienst gefährdet dann alle anderen Konten mit",
+            "Es macht das Passwort automatisch länger",
+            "Es ist technisch gar nicht möglich",
+            "Es hat keine Nachteile"
+          ],
+          "correct": 0
+        }
+      ]
+    },
+    {
+      "module": "M6 Datenschutz & Sicherheit",
+      "variants": [
+        {
+          "q": "Eine E-Mail fordert dringend zur sofortigen Eingabe von Zugangsdaten über einen Link auf. Um was handelt es sich wahrscheinlich?",
+          "options": [
+            "Phishing-Versuch",
+            "Ein normales Software-Update",
+            "Eine Rechnung vom Stromanbieter",
+            "Ein Systemabsturz"
+          ],
+          "correct": 0
+        },
+        {
+          "q": "Woran erkennt man häufig einen Phishing-Versuch?",
+          "options": [
+            "Dringlichkeit + verdächtiger Link/Absender zur Dateneingabe",
+            "Ein bekannter Absender ohne Links",
+            "Eine Rechtschreibprüfung im Browser",
+            "Ein langsames WLAN"
+          ],
+          "correct": 0
+        }
+      ]
+    },
+    {
+      "module": "M6 Datenschutz & Sicherheit",
+      "variants": [
+        {
+          "q": "Wofür steht die CIA-Triade in der IT-Sicherheit?",
+          "options": [
+            "Vertraulichkeit, Integrität, Verfügbarkeit",
+            "Passwort, Backup, Update",
+            "Client, Server, Router",
+            "Netzwerk, Kabel, Stecker"
+          ],
+          "correct": 0
+        },
+        {
+          "q": "Ein System soll vor unbefugtem Lesen, unbemerkter Veränderung und Ausfall geschützt werden. Wie nennt man dieses Schutzziel-Trio?",
+          "options": [
+            "CIA-Triade",
+            "DNS-Trio",
+            "HTTP-Prinzip",
+            "Backup-Regel"
+          ],
+          "correct": 0
+        }
+      ]
+    },
+    {
+      "module": "M7 Programmieren-Einstieg",
+      "variants": [
+        {
+          "q": "In Python wird `bestand = 12` geschrieben. Was passiert dabei?",
+          "options": [
+            "Der Wert 12 wird in der Variable bestand gespeichert",
+            "Es wird eine Datei namens bestand erstellt",
+            "Es wird ein Fehler ausgegeben",
+            "Es wird nichts gespeichert"
+          ],
+          "correct": 0
+        },
+        {
+          "q": "Nach `preis = 2.5` wird `preis = preis + 1` ausgeführt. Welchen Wert hat `preis` danach?",
+          "options": [
+            "3.5",
+            "2.5",
+            "1",
+            "Fehler"
+          ],
+          "correct": 0
+        }
+      ]
+    },
+    {
+      "module": "M7 Programmieren-Einstieg",
+      "variants": [
+        {
+          "q": "`if bestand < 10:` prüft welchen Fall?",
+          "options": [
+            "Ob der Bestand kleiner als 10 ist",
+            "Ob der Bestand genau 10 ist",
+            "Ob der Bestand größer als 10 ist",
+            "Ob eine Datei existiert"
+          ],
+          "correct": 0
+        },
+        {
+          "q": "Ein Skript soll nur dann 'Nachbestellen' ausgeben, wenn weniger als 5 Stück vorhanden sind. Welche Zeile passt dafür?",
+          "options": [
+            "if bestand < 5:",
+            "while bestand < 5:",
+            "for bestand < 5:",
+            "print(bestand < 5)"
+          ],
+          "correct": 0
+        }
+      ]
+    },
+    {
+      "module": "M7 Programmieren-Einstieg",
+      "variants": [
+        {
+          "q": "Eine `for`-Schleife soll jeden Eintrag einer Liste einmal durchgehen. Welche Struktur passt?",
+          "options": [
+            "for eintrag in liste:",
+            "if eintrag in liste:",
+            "while True: liste",
+            "def liste():"
+          ],
+          "correct": 0
+        },
+        {
+          "q": "Wie zählt man in Python am einfachsten, wie viele Elemente einer Liste eine Bedingung erfüllen?",
+          "options": [
+            "Mit einer Schleife + Zähler-Variable, die bei jedem Treffer erhöht wird",
+            "Mit chmod",
+            "Mit einem Dockerfile",
+            "Mit DNS"
+          ],
+          "correct": 0
+        }
+      ]
+    },
+    {
+      "module": "M7 Programmieren-Einstieg",
+      "variants": [
+        {
+          "q": "Wofür wird `def` in Python benutzt?",
+          "options": [
+            "Um eine Funktion zu definieren",
+            "Um eine Datei zu löschen",
+            "Um eine Schleife zu beenden",
+            "Um ein Netzwerk zu verbinden"
+          ],
+          "correct": 0
+        },
+        {
+          "q": "Ein Stück Code (z. B. 'Rabatt berechnen') soll mehrfach mit verschiedenen Werten aufrufbar sein. Wie bündelt man das sinnvoll?",
+          "options": [
+            "In einer eigenen Funktion mit Parametern",
+            "In einer einzigen sehr langen Zeile",
+            "In einer Dockerfile",
+            "In einer IP-Adresse"
+          ],
+          "correct": 0
+        }
+      ]
+    },
+    {
+      "module": "M8 Eigene KI-Anwendung",
+      "variants": [
+        {
+          "q": "Ein Python-Webserver soll Produktdaten aus einer SQLite-Datenbank anzeigen. Was braucht das Backend dafür grundsätzlich?",
+          "options": [
+            "Eine Verbindung zur Datenbank + eine Abfrage der Daten",
+            "Nur eine schöne CSS-Datei",
+            "Nur einen DNS-Eintrag",
+            "Nur ein Docker-Image"
+          ],
+          "correct": 0
+        },
+        {
+          "q": "Eine Webseite soll aktuelle Bestellungen live aus einer Datenbank zeigen. Wo müssen die Daten dafür zuerst abgefragt werden?",
+          "options": [
+            "Im Backend, das die Datenbank abfragt",
+            "Direkt im Browser ohne Backend",
+            "In der Dockerfile",
+            "Im DNS-Server"
+          ],
+          "correct": 0
+        }
+      ]
+    },
+    {
+      "module": "M8 Eigene KI-Anwendung",
+      "variants": [
+        {
+          "q": "Ein Formular zum Anlegen einer neuen Bestellung sendet Daten per POST an das Backend. Was passiert danach typischerweise?",
+          "options": [
+            "Backend speichert die Daten in der DB und leitet zurück zur Übersicht",
+            "Die Daten werden nur im Browser gespeichert",
+            "Die Seite lädt automatisch neu ohne etwas zu speichern",
+            "Nichts, POST-Daten werden ignoriert"
+          ],
+          "correct": 0
+        },
+        {
+          "q": "Nach dem Absenden eines Bestell-Formulars erscheint sofort die aktualisierte Bestellübersicht. Welches Muster steckt typischerweise dahinter?",
+          "options": [
+            "Formular -> POST ans Backend -> in DB speichern -> Weiterleitung/Redirect",
+            "Nur CSS-Animation ohne Backend",
+            "Ein Docker-Container ohne Datenbank",
+            "Ein DNS-Alias"
+          ],
+          "correct": 0
+        }
+      ]
+    },
+    {
+      "module": "M8 Eigene KI-Anwendung",
+      "variants": [
+        {
+          "q": "Eine KI soll aus einer Beschreibung ein einfaches HTML-Grundgerüst erzeugen. Was verbessert das Ergebnis meist am meisten?",
+          "options": [
+            "Eine klare, konkrete Beschreibung was die Seite zeigen soll",
+            "Ein möglichst kurzer, vager Ein-Wort-Prompt",
+            "Groß-/Kleinschreibung im Prompt",
+            "Die Tageszeit der Anfrage"
+          ],
+          "correct": 0
+        },
+        {
+          "q": "Ein erster KI-generierter Code passt nicht ganz. Was ist der sinnvollste nächste Schritt (Nachschärfen)?",
+          "options": [
+            "Die Beschreibung präzisieren/anpassen und erneut anfragen",
+            "Direkt aufgeben",
+            "Den Computer neu starten",
+            "Den Ordner löschen"
+          ],
+          "correct": 0
+        }
+      ]
+    },
+    {
+      "module": "M8 Eigene KI-Anwendung",
+      "variants": [
+        {
+          "q": "Was unterscheidet 'agentisches Coding' typischerweise von einem einzelnen Prompt für einen Codeschnipsel?",
+          "options": [
+            "Die KI arbeitet mehrschrittig auf ein größeres Ziel hin, statt nur einen Schnipsel zu liefern",
+            "Es gibt gar keinen Unterschied",
+            "Agentisches Coding braucht kein Ziel",
+            "Agentisches Coding funktioniert nur offline"
+          ],
+          "correct": 0
+        },
+        {
+          "q": "Ein Ziel wird formuliert ('füge eine Kategorie-Vorschlagsfunktion hinzu') und die KI plant/setzt mehrere Schritte selbst um. Wie nennt man diese Arbeitsweise?",
+          "options": [
+            "Agentisches Coding / Vibecoding",
+            "Ein reiner Ein-Zeilen-Prompt",
+            "Ein Dockerfile",
+            "Ein DNS-Eintrag"
+          ],
+          "correct": 0
+        }
+      ]
+    }
+  ],
+  "wahlteilVarianten": [
+    {
+      "id": "a",
+      "label": "Variante A – Bäckerei-Lager",
+      "scenario": "Die Datei `bestand.txt` enthält pro Zeile einen Produktnamen und die Menge, getrennt durch ein Semikolon (z. B. `Brötchen;45`). Ergänze das Skript unten so, dass es die Datei zeilenweise einliest, für jedes Produkt mit weniger als 10 Stück den Namen in eine Liste aufnimmt, und diese Liste anschließend in die neue Datei `knapp.txt` schreibt (ein Produktname pro Zeile).",
+      "pythonSkeleton": "# Beispiel-Inhalt von bestand.txt (eine Zeile pro Produkt):\n# Brötchen;45\n# Mohnbrötchen;6\n# Vollkornbrot;3\n# Croissant;22\n# Laugenbrezel;8\n\nknappe_produkte = []\n\n# TODO: Datei \"bestand.txt\" öffnen und zeilenweise lesen (open(...) + for-Schleife).\n# TODO: Jede Zeile am \";\" in Name und Menge aufteilen (z. B. mit .split(\";\")).\n# TODO: Wenn die Menge kleiner als 10 ist, den Namen an knappe_produkte anhängen.\n\n# TODO: Die Datei \"knapp.txt\" zum Schreiben öffnen und jeden Namen aus\n# knappe_produkte in eine eigene Zeile schreiben.\n\nprint(\"Knapp im Bestand:\", len(knappe_produkte))"
+    },
+    {
+      "id": "b",
+      "label": "Variante B – Kunden-Ablage",
+      "scenario": "Die Datei `rechnungen.txt` enthält pro Zeile einen Rechnungsnamen und den Betrag, getrennt durch ein Semikolon (z. B. `Rechnung_001;45.90`). Ergänze das Skript unten so, dass es die Datei zeilenweise einliest, für jede Rechnung über 100 € den Namen in eine Liste aufnimmt, und diese Liste anschließend in die neue Datei `hohe_rechnungen.txt` schreibt (ein Rechnungsname pro Zeile).",
+      "pythonSkeleton": "# Beispiel-Inhalt von rechnungen.txt (eine Zeile pro Rechnung):\n# Rechnung_001;45.90\n# Rechnung_002;128.50\n# Rechnung_003;12.00\n# Rechnung_004;210.00\n# Rechnung_005;99.99\n\nhohe_rechnungen = []\n\n# TODO: Datei \"rechnungen.txt\" öffnen und zeilenweise lesen (open(...) + for-Schleife).\n# TODO: Jede Zeile am \";\" in Name und Betrag aufteilen (z. B. mit .split(\";\")).\n# TODO: Wenn der Betrag größer als 100 ist, den Namen an hohe_rechnungen anhängen.\n\n# TODO: Die Datei \"hohe_rechnungen.txt\" zum Schreiben öffnen und jeden Namen aus\n# hohe_rechnungen in eine eigene Zeile schreiben.\n\nprint(\"Hohe Rechnungen:\", len(hohe_rechnungen))"
+    }
+  ],
+  "wahlteilReferenceSolutions": {
+    "a": {
+      "exampleFile": "bestand.txt:\nBrötchen;45\nMohnbrötchen;6\nVollkornbrot;3\nCroissant;22\nLaugenbrezel;8",
+      "solution": "knappe_produkte = []\n\nwith open(\"bestand.txt\", \"r\", encoding=\"utf-8\") as datei:\n    for zeile in datei:\n        name, menge = zeile.strip().split(\";\")\n        if int(menge) < 10:\n            knappe_produkte.append(name)\n\nwith open(\"knapp.txt\", \"w\", encoding=\"utf-8\") as datei:\n    for name in knappe_produkte:\n        datei.write(name + \"\\n\")\n\nprint(\"Knapp im Bestand:\", len(knappe_produkte))",
+      "output": "Konsole: Knapp im Bestand: 3\nknapp.txt:\nMohnbrötchen\nVollkornbrot\nLaugenbrezel"
+    },
+    "b": {
+      "exampleFile": "rechnungen.txt:\nRechnung_001;45.90\nRechnung_002;128.50\nRechnung_003;12.00\nRechnung_004;210.00\nRechnung_005;99.99",
+      "solution": "hohe_rechnungen = []\n\nwith open(\"rechnungen.txt\", \"r\", encoding=\"utf-8\") as datei:\n    for zeile in datei:\n        name, betrag = zeile.strip().split(\";\")\n        if float(betrag) > 100:\n            hohe_rechnungen.append(name)\n\nwith open(\"hohe_rechnungen.txt\", \"w\", encoding=\"utf-8\") as datei:\n    for name in hohe_rechnungen:\n        datei.write(name + \"\\n\")\n\nprint(\"Hohe Rechnungen:\", len(hohe_rechnungen))",
+      "output": "Konsole: Hohe Rechnungen: 2\nhohe_rechnungen.txt:\nRechnung_002\nRechnung_004"
+    }
+  }
+}

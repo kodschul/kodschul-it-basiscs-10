@@ -1,33 +1,19 @@
 from flask import Flask, render_template, request, session, redirect, url_for
-from random import randint
-
 app = Flask(__name__)
-
-# Für die Flask-Session.
-# In einer echten Anwendung sollte dieser Wert geheim sein.
 app.secret_key = "schulung-geheimer-schluessel"
-correct_num = randint(1,10)
-
+correct_num = 10
 @app.route("/", methods=["GET"])
 def index():
-    # Hier wird die aktuelle Spielseite angezeigt.
-    #
-    # Falls noch kein Spiel existiert, könnt ihr hier
-    # eure eigene Initialisierungslogik aufrufen.
-
     return render_template(
         "index.html",
         message=None,
         game_over=False,
         won=False
     )
-
 @app.route("/guess", methods=["POST"])
 def guess():
-    # Wert aus dem HTML-Formular auslesen
     user_input =  int( request.form.get("guess"))
     if user_input == correct_num:
-        # WON
         result = {
                 "message": "WELL DONE! You WON!",
                 "won": True,
@@ -39,39 +25,14 @@ def guess():
                 "won": False,
                 "game_over": False
             }
-
-
-   
     return render_template(
         "index.html",
         message=result["message"],
         won=result["won"],
         game_over=result["game_over"]
     )
-
-
 @app.route("/new-game", methods=["POST"])
 def new_game():
-
-    global correct_num
-
-    correct_num = randint(1, 10)
-
-    # ------------------------------------------------
-    # HIER EURE EIGENE INITIALISIERUNGSLOGIK EINSETZEN
-    # ------------------------------------------------
-    #
-    # Zum Beispiel:
-    #
-    # session["target"] = ...
-    # session["attempts"] = 0
-    #
-    # Die konkrete Erzeugung der Zufallszahl
-    # implementiert ihr selbst.
-
-    # Anschließend zur Startseite zurückkehren
     return redirect(url_for("index"))
-
-
 if __name__ == "__main__":
     app.run(host="0.0.0.0", debug=True)

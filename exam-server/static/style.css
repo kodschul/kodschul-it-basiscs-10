@@ -1,0 +1,8 @@
+/* Abschlusspruefung exam-server static styles (minimal, Tailwind CDN handles most). */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.exam-option-btn.selected {
+  border-color: #38bdf8;
+  background: rgba(2, 132, 199, 0.2);
+}
